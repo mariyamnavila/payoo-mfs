@@ -13,7 +13,7 @@ document.getElementById('btn-cash-out')
             document.getElementById('account-balance').innerText = newBalance;
 
         }
-        //  else {
-        //     alert('Failed to cash out! Please try again later.')
-        // }
+         else {
+            alert('Failed to cash out! Please try again later.')
+        }
     })
